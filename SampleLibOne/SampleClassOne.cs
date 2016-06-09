@@ -28,7 +28,13 @@ namespace SampleLibOne
 
         public override void SetText(ICharSequence text, BufferType type)
         {
-            Toast.MakeText(this.Context, text, ToastLength.Short);
+            Toast.MakeText(this.Context, text, ToastLength.Short).Show();
+            base.SetText(text, type);
+        }
+
+        public new void SetText(string text, BufferType type)
+        {
+            Toast.MakeText(this.Context, text, ToastLength.Short).Show();
             base.SetText(text, type);
         }
     }
