@@ -1,2 +1,3 @@
-# xamarin-android-library-demo
-This repo is to demonstrate how to avoid the missing values in Resource.designer.cs issue. 
+# Xamarin Android Library Resource.Designer Fix
+
+This library is to demonstrate how to avoid causing Resource.Designer issue for your users.
