@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLibTwo", "SampleLibTw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleAppTwo", "SampleAppTwo\SampleAppTwo.csproj", "{489CDCD8-4C5F-46B3-BC48-9ADB50D66FF1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BrokenSample", "BrokenSample", "{AE5B46B7-01F2-4AF5-88F3-A6287B462A2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FixedSample", "FixedSample", "{22677BD8-538A-4B8F-AECD-1D6E1C5DB7A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,5 +44,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51EB1339-DDFD-4D6C-A5D6-09324744A369} = {AE5B46B7-01F2-4AF5-88F3-A6287B462A2B}
+		{F2E2C50A-16CB-402F-B40C-77496D09C599} = {AE5B46B7-01F2-4AF5-88F3-A6287B462A2B}
+		{A195F194-C149-45F8-AD5B-4124B2F8EB6A} = {22677BD8-538A-4B8F-AECD-1D6E1C5DB7A2}
+		{489CDCD8-4C5F-46B3-BC48-9ADB50D66FF1} = {22677BD8-538A-4B8F-AECD-1D6E1C5DB7A2}
 	EndGlobalSection
 EndGlobal
