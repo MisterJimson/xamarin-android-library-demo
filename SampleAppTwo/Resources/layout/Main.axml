@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Hello" />
-  <SampleLibOne.SampleClassTwo
+  <SampleLibTwo.SampleClassTwo
         android:id="@+id/sample"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
